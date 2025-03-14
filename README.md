@@ -1,2 +1,2 @@
 # Dotfiles
-My configuration of my desktop and tools y Arch Linux
+My configuration of my desktop and tools with Arch Linux
