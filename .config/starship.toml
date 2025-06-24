@@ -13,6 +13,7 @@ $git_status\
 $c\
 $rust\
 $golang\
+$bun\
 $nodejs\
 $php\
 $java\
@@ -122,7 +123,12 @@ style = "bg:teal"
 format = '[[($all_status$ahead_behind )](fg:base bg:green)]($style)'
 
 [nodejs]
-symbol = ""
+symbol = ""
+style = "bg:teal"
+format = '[[ $symbol( $version) ](fg:base bg:teal)]($style)'
+
+[bun]
+symbol = "🥟"
 style = "bg:teal"
 format = '[[ $symbol( $version) ](fg:base bg:teal)]($style)'
 
@@ -175,7 +181,7 @@ format = '[[ $symbol( $context) ](fg:#83a598 bg:color_bg3)]($style)'
 disabled = false
 time_format = "%R"
 style = "bg:peach"
-format = '[[ ♥ $time ](fg:mantle bg:purple)]($style)'
+format = '[[   $time ](fg:mantle bg:purple)]($style)'
 
 [line_break]
 disabled = false
