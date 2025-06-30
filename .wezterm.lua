@@ -6,6 +6,7 @@ local config = {}
 
 -- Terminal Config
 config.max_fps = 240
+-- Activate this with your WSL distro if you are in windows
 config.default_domain = "WSL:Arch"
 config.color_scheme = "Catppuccin Mocha"
 config.front_end = "OpenGL"
