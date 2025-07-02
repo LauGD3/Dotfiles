@@ -33,7 +33,7 @@ layout {
               command_git_branch_rendermode  "static"
 
               datetime        "#[fg=#b4befe,bold] {format} "
-              datetime_format "%A, %d %b %Y %I:%M"
+              datetime_format "%A, %d %b %Y %I:%M %p"
               datetime_timezone "America/Bogota"
             }
         }
